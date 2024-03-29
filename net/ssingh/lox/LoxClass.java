@@ -1,4 +1,4 @@
-package src.net.ssingh.lox;
+package net.ssingh.lox;
 
 import java.util.List;
 import java.util.Map;

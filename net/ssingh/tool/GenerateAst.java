@@ -1,4 +1,4 @@
-package src.net.ssingh.tool;
+package net.ssingh.tool;
 
 import java.io.IOException;
 import java.io.PrintWriter;

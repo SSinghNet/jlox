@@ -1,4 +1,4 @@
-package src.net.ssingh.lox;
+package net.ssingh.lox;
 
 class Token {
     final TokenType type;

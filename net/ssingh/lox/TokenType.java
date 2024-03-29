@@ -1,4 +1,4 @@
-package src.net.ssingh.lox;
+package net.ssingh.lox;
 
 enum TokenType {
     //Single-character tokens

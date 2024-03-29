@@ -1,6 +1,6 @@
-package src.net.ssingh.lox;
+package net.ssingh.lox;
 
-import static src.net.ssingh.lox.TokenType.*;
+import static net.ssingh.lox.TokenType.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
