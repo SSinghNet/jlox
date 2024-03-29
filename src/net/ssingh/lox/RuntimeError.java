@@ -1,4 +1,4 @@
-package net.ssingh.lox;
+package src.net.ssingh.lox;
 
 class RuntimeError extends RuntimeException{
     final Token token;

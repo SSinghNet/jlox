@@ -1,11 +1,11 @@
-package net.ssingh.lox;
+package src.net.ssingh.lox;
+
+import static src.net.ssingh.lox.TokenType.*;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-
-import static net.ssingh.lox.TokenType.*; 
+import java.util.Map; 
 
 class Scanner {
     private final String source;

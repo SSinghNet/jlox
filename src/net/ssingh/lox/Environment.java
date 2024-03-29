@@ -1,4 +1,4 @@
-package net.ssingh.lox;
+package src.net.ssingh.lox;
 
 import java.util.HashMap;
 import java.util.Map;

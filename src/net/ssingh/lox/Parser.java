@@ -1,10 +1,10 @@
-package net.ssingh.lox;
+package src.net.ssingh.lox;
+
+import static src.net.ssingh.lox.TokenType.*;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
-import static net.ssingh.lox.TokenType.*;
 
 class Parser {
     private static class ParseError extends RuntimeException {
