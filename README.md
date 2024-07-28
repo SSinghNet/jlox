@@ -3,7 +3,14 @@
 **Written in Java**
 
 Lox is a object oriented, dynamically typed language.
+Jlox is an interpreter written for the Lox language in Java. It uses the JVM as the backbone to the interpreter and implements it with a "tree-walk" interpeter. The interpreter works by first scanning the code for tokens, which is fed into the parser to be turned into a list of statements, and then is given to the resolver to run the code.
 
+### Interpeter Usage: 
+```shell
+java -jar Lox.jar [filename]
+```
+
+## Lox Examples
 Lines are teriminated with semicolons.
 
 The *var* keyword is used to initialize variables.  
@@ -73,9 +80,4 @@ var gabe = Lion(22, "Gabe", 140);
 print gabe.weight;
 print gabe.getSound();
 print gabe.eat();
-```
-
-Interpeter Usage: 
-```shell
-java -jar Lox.jar [filename]
 ```
